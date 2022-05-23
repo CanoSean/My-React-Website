@@ -46,7 +46,6 @@ function App() {
       : */}
       <Routes>
         <Route path='/My-React-Website/' element={<Home/>}/>
-        <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/Skills' element={<Skills/>}/>
         <Route path='/Projects' element={<Projects/>}/>

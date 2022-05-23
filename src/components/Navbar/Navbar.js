@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { IoMdChatboxes, IoMdClose,  IoMdHome,  IoMdMenu } from 'react-icons/io'
-import { SiAboutdotme, SiTwitter } from "react-icons/si";
+import { SiAboutdotme } from "react-icons/si";
 import { GiSkills, GiOpenFolder } from "react-icons/gi";
 import { Link, NavLink } from 'react-router-dom'
 import { ExternalLink } from 'react-external-link';
@@ -30,8 +30,8 @@ const Header = () => {
 
 
                 <li>
-                    <NavLink to='/' exact="true" activeclassname="active"><IoMdHome className='icon'/></NavLink>
-                    <Link to='/'><span>Home</span></Link>
+                    <NavLink to='/My-React-Website' exact="true" activeclassname="active"><IoMdHome className='icon'/></NavLink>
+                    <Link to='/My-React-Website'><span>Home</span></Link>
                 </li>
 
                 <li>
