@@ -1,0 +1,159 @@
+.contact {
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+.contactForm{
+    width: 40%;
+    padding: 2vw;
+}
+
+.contactForm .reply{
+    font-size: 30px;
+    font-weight: 500;
+    width: 260%;
+    color: red;
+    transition: .5s all ease;
+}
+
+.contactForm .inputBox{
+    transition: .5s all ease;
+    position: relative;
+    width: 100%;
+}
+.contactForm .inputBox textarea,
+.contactForm .inputBox input{
+    color: white;
+    background-color: black;
+    width: 70vw;
+    font-size: 2vw;
+    margin: 1vw 0;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+}
+
+
+.contact-container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    margin: auto 0 auto 10vw;
+}
+
+.contactForm .inputBox input:-webkit-autofill,
+.contactForm .inputBox input:-webkit-autofill:hover, 
+.contactForm .inputBox input:-webkit-autofill:focus, 
+.contactForm .inputBox input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px black inset !important;
+    -webkit-text-fill-color: white !important;
+}
+
+.InfoContainer {
+    padding: 10vw;
+}
+
+
+.foot a{
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+}.foot a:hover{
+    color: red;
+}
+
+#logocontact path:nth-child(2){
+    stroke-dasharray: 412;
+    stroke-dashoffset: 412;
+    animation: line-aim 2s ease forwards;
+}
+
+#logocontact path:nth-child(3){
+    stroke-dasharray: 178;
+    stroke-dashoffset: 178;
+    animation: line-aim 2s ease forwards;
+}
+
+#logocontact path:nth-child(4){
+    stroke-dasharray: 301;
+    stroke-dashoffset: 301;
+    animation: line-aim 2s ease forwards;
+}
+
+#logocontact path:nth-child(5){
+    stroke-dasharray: 232;
+    stroke-dashoffset: 232;
+    animation: line-aim 2s ease forwards;
+}
+
+#logocontact path:nth-child(6){
+    stroke-dasharray: 357;
+    stroke-dashoffset: 357;
+    animation: line-aim 2s ease forwards;
+}
+
+#logocontact path:nth-child(7){
+    stroke-dasharray: 277;
+    stroke-dashoffset: 277;
+    animation: line-aim 2s ease forwards;
+}
+#logocontact path:nth-child(8){
+    stroke-dasharray: 290;
+    stroke-dashoffset: 290;
+    animation: line-aim 2s ease forwards;
+}
+#logocontact path:nth-child(9){
+    stroke-dasharray: 312;
+    stroke-dashoffset: 312;
+    animation: line-aim 2s ease forwards;
+}
+
+@keyframes line-aim{
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    #logocontact{
+        width: 80vw;
+        height: 15vh;
+    }
+
+    .contactForm{
+        width: 40%;
+        padding: 1vw;
+    }
+    
+    .contactForm .reply{
+        font-size: 2vw;
+        font-weight: 500;
+        width: 260%;
+    }
+    
+    .contactForm .inputBox{
+        transition: .5s all ease;
+        position: relative;
+        width: 100%;
+        font-size: 3vw;
+    }
+    .contactForm .inputBox textarea,
+    .contactForm .inputBox input{
+    width: 80vw;
+    font-size: 4vw;
+    margin: 4vw 0;
+
+
+
+}
+.contactForm .btn{
+    width: 150px;
+    height: 60px;
+}
+
+}

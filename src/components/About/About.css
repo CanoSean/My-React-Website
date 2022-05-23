@@ -1,0 +1,171 @@
+.About {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-container{
+    color: white;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    margin: auto 0 auto 10vw;
+}
+
+#aboutlogo{
+    transition: .5s all ease;
+    
+}
+
+.hesitate{
+    color: white;
+}
+
+.hesitate:hover{
+    color: red;
+}
+
+#aboutlogo path:nth-child(2){
+    stroke-dasharray: 340;
+    stroke-dashoffset: 340;
+    animation: line-aim 2s ease forwards;
+}
+
+#aboutlogo path:nth-child(3){
+    stroke-dasharray: 390;
+    stroke-dashoffset: 390;
+    animation: line-aim 2s ease forwards;
+}
+
+#aboutlogo path:nth-child(4){
+    stroke-dasharray: 301;
+    stroke-dashoffset: 301;
+    animation: line-aim 2s ease forwards;
+}
+
+#aboutlogo path:nth-child(5){
+    stroke-dasharray: 293;
+    stroke-dashoffset: 293;
+    animation: line-aim 2s ease forwards;
+}
+#aboutlogo path:nth-child(6){
+    stroke-dasharray: 218;
+    stroke-dashoffset: 218;
+    animation: line-aim 2s ease forwards;
+}
+#aboutlogo path:nth-child(7){
+    stroke-dasharray: 464;
+    stroke-dashoffset: 464;
+    animation: line-aim 2s ease forwards;
+}
+
+#aboutlogo path:nth-child(8){
+    stroke-dasharray: 357;
+    stroke-dashoffset: 357;
+    animation: line-aim 2s ease forwards;
+}
+
+@keyframes line-aim{
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    50% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    50% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    50% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    50% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    50% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+.content{
+    font-size: 1vw;
+    width: 70%;
+    margin-top: 2vh;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
+
+.About .aboutlogocpo .content .tagabout{
+    font-size: .8vw;
+    animation: fadeIn linear 2s;
+    color: rgba(248, 248, 255, 0.192);
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+    
+}
+
+.about-container .aboutlogocpo .tagabout{
+    animation: fadeIn linear 2s;
+    color: rgba(248, 248, 255, 0.192);
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
+
+@media screen and (max-width: 1100px) {
+    #aboutlogo{
+        width: 80vw;
+        height: 15vh;
+    }
+    .About .aboutlogocpo .content .tagabout{
+        font-size: 1vw;
+    }
+    .about-container{
+        margin: auto 0 auto 12vw;
+    }
+
+    .content{
+        font-size: 1.5vw;
+        width: 100%;
+        margin-top: 3vh;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .content{
+        font-size: 2vw;
+    }
+
+
+    @media screen and (max-width: 500px) {
+
+        .content{
+            font-size: 3vw;
+        }
+    
+    }
+}

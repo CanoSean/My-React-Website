@@ -1,0 +1,204 @@
+.projects {
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+.project-container{
+    /* display: flex; */
+    height: 100vh;
+    align-items: center;
+    margin: auto 1vw auto 10vw;
+}
+
+
+.project-container .aboutlogocpo .tagabout{
+    animation: fadeIn linear 2s;
+    color: rgba(248, 248, 255, 0.192);
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
+
+.projecttitle{
+    margin-top: 10vh;
+}
+
+#project-logo path:nth-child(2){
+    stroke-dasharray: 312;
+    stroke-dashoffset: 312;
+    animation: line-aim 2s ease forwards;
+}
+
+#project-logo path:nth-child(3){
+    stroke-dasharray: 178;
+    stroke-dashoffset: 178;
+    animation: line-aim 2s ease forwards;
+}
+
+#project-logo path:nth-child(4){
+    stroke-dasharray: 301;
+    stroke-dashoffset: 301;
+    animation: line-aim 2s ease forwards;
+}
+
+#project-logo path:nth-child(5){
+    stroke-dasharray: 232;
+    stroke-dashoffset: 232;
+    animation: line-aim 2s ease forwards;
+}
+
+#project-logo path:nth-child(6){
+    stroke-dasharray: 357;
+    stroke-dashoffset: 357;
+    animation: line-aim 2s ease forwards;
+}
+
+#project-logo path:nth-child(7){
+    stroke-dasharray: 277;
+    stroke-dashoffset: 277;
+    animation: line-aim 2s ease forwards;
+}
+#project-logo path:nth-child(8){
+    stroke-dasharray: 290;
+    stroke-dashoffset: 290;
+    animation: line-aim 2s ease forwards;
+}
+#project-logo path:nth-child(9){
+    stroke-dasharray: 312;
+    stroke-dashoffset: 312;
+    animation: line-aim 2s ease forwards;
+}
+
+@keyframes line-aim{
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .project-container{
+        margin: auto 0 auto 15vw;
+        transition: .5s all ease;
+    }
+
+    #project-logo{
+        width:40vw;
+    }
+
+    .projecttitle{
+        margin-top: 10vh;
+    }
+    .description{
+        font-size: 1.5vw;
+    }
+    .title{
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .project-container{
+        margin: auto 0 auto 17vw;
+    }
+
+
+    .description{
+        font-size: 2.5vw;
+    }
+    .projecttitle{
+        margin-top: 15vh;
+    }
+    #project-logo{
+        width:84vw;
+    }
+}
+    @media screen and (max-width: 500px) {
+        .projecttitle{
+            margin-top: 5vh;
+        }
+        #project-logo{
+            width:81vw;
+        }
+}
+
+.card{
+    background-color: black;
+    overflow: hidden;
+}
+
+.card-top img{
+    float: left;
+    width: 100%;
+    height: 40vh;
+}
+
+.card-top h5{
+    font-size: 1rem;
+}
+
+
+
+.project-content{
+    font-size: 1vw;
+    width: 80%;
+    margin-top: 4vh;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+}
+
+.arrows{
+    font-size: 200%;
+}
+.ancProject{
+    text-decoration: none;
+    color: white;
+    transition: .5s all ease;
+}
+
+.ancProject img{
+    filter: grayscale(100%);
+    object-fit: contain;
+}
+
+.ancProject:hover{
+    color: red;
+}
+
+.ancProject img:hover{
+    filter: grayscale(0%);
+    transition: 1s all ease;
+}
+
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next{
+    color: red;
+    transition: 1s all ease;
+}
+
+.slick-arrow.slick-prev:hover{
+    color: white;
+}
+
+.slick-arrow.slick-next:hover{
+    color: white;
+}
+
+.cardin{
+    color: rgba(248, 248, 255, 0.192);
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
+    font-size: .5vw;
+    vertical-align:middle;
+}
