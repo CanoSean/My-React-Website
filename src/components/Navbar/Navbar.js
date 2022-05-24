@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import { IoMdChatboxes, IoMdClose,  IoMdHome,  IoMdMenu } from 'react-icons/io'
+import { IoMdChatboxes, IoMdClose,  IoMdHome } from 'react-icons/io'
 import { SiAboutdotme } from "react-icons/si";
 import { GiSkills, GiOpenFolder } from "react-icons/gi";
 import { Link, NavLink } from 'react-router-dom'

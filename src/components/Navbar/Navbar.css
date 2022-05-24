@@ -68,7 +68,7 @@ nav .ul-item li {
 }
 
 .iconsocial:hover{
-    color: red;
+    color: #B10E0E;
 }
 
 
@@ -104,7 +104,7 @@ nav .ul-item li a {
 }
 
 nav .ul-item li a.active svg{
-    color: red;
+    color: #B10E0E;
 }
 
 
