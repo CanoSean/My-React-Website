@@ -22,7 +22,7 @@
 }
 
 .skills-container > div > h3 span:hover{
-    color: red;
+    color: #B10E0E;
     transition: .5s all ease;
 }
 
@@ -38,11 +38,11 @@
 }
 
 .expdetail span{
-    color: red;
+    color: #B10E0E;
 }
 
 .expdetail:hover{
-    color: red;
+    color: #B10E0E;
 }
 
 

@@ -19,12 +19,16 @@
     
 }
 
+i{
+    color: #B10E0E;
+}
+
 .hesitate{
     color: white;
 }
 
 .hesitate:hover{
-    color: red;
+    color: #B10E0E;
 }
 
 #aboutlogo path:nth-child(2){

@@ -171,7 +171,7 @@
 }
 
 .ancProject:hover{
-    color: red;
+    color: #B10E0E;
 }
 
 .ancProject img:hover{
@@ -181,7 +181,7 @@
 
 .slick-arrow.slick-prev,
 .slick-arrow.slick-next{
-    color: red;
+    color: #B10E0E;
     transition: 1s all ease;
 }
 
