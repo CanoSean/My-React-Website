@@ -30,8 +30,8 @@ const Header = () => {
 
 
                 <li>
-                    <NavLink to='/My-React-Website' exact="true" activeclassname="active"><IoMdHome className='icon'/></NavLink>
-                    <Link to='/My-React-Website'><span>Home</span></Link>
+                    <NavLink to='/' exact="true" activeclassname="active"><IoMdHome className='icon'/></NavLink>
+                    <Link to='/'><span>Home</span></Link>
                 </li>
 
                 <li>
