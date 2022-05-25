@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/My-React-Website/static/css/main.07fa373f.css",
-    "main.js": "/My-React-Website/static/js/main.aee71a32.js",
+    "main.js": "/My-React-Website/static/js/main.e926b3e1.js",
     "static/media/deerpointweb.png": "/My-React-Website/static/media/deerpointweb.e62d7e7c96f1420c29e0.png",
     "static/media/animazon.png": "/My-React-Website/static/media/animazon.765ef6b284c5cc933c48.png",
     "static/media/potatoweb.png": "/My-React-Website/static/media/potatoweb.409ef94aced9a92509d1.png",
     "static/media/mainmenu.png": "/My-React-Website/static/media/mainmenu.b0e65f46f81c928e0cee.png",
     "static/media/previousweb.png": "/My-React-Website/static/media/previousweb.881ab3ceb52d95ecbc2a.png",
     "static/media/currentweb.png": "/My-React-Website/static/media/currentweb.52c2e3a7ef40e1c579bd.png",
-    "static/media/resume.pdf": "/My-React-Website/static/media/resume.666275df304eb616e6c0.pdf",
     "static/media/Continent.png": "/My-React-Website/static/media/Continent.96fa09b15e6c8871fc90.png",
     "static/media/readlinglist.png": "/My-React-Website/static/media/readlinglist.fe35774d3b27b7ddbe79.png",
     "static/media/slick.svg": "/My-React-Website/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -17,10 +16,10 @@
     "static/media/slick.woff": "/My-React-Website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/My-React-Website/index.html",
     "main.07fa373f.css.map": "/My-React-Website/static/css/main.07fa373f.css.map",
-    "main.aee71a32.js.map": "/My-React-Website/static/js/main.aee71a32.js.map"
+    "main.e926b3e1.js.map": "/My-React-Website/static/js/main.e926b3e1.js.map"
   },
   "entrypoints": [
     "static/css/main.07fa373f.css",
-    "static/js/main.aee71a32.js"
+    "static/js/main.e926b3e1.js"
   ]
 }
