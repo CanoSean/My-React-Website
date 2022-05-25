@@ -2,8 +2,6 @@ import React from 'react'
 import "./Home.scss"
 import { Link } from 'react-router-dom'
 import Typical from 'react-typical'
-import file from '../../assets/resume.pdf'
-
 
 export default function Main() {
 
@@ -54,7 +52,8 @@ export default function Main() {
                     </div>
                     <Link to="/About"><button className='btn'>About me</button></Link>
                     <span> </span>
-                    <Link to={file} download target="_blank"><button className='btn'> Download CV</button></Link>
+                    <a href="./resume.pdf" download><button className='btn'> Download CV</button></a>
+                    {/* <Link to="./" download target="_blank"><button className='btn'> Download CV</button></Link> */}
                 </div>
             </div>
         </div>
