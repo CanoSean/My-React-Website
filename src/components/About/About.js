@@ -18,7 +18,10 @@ const About = () => {
     setCursorY(e.pageY + -150)   
   })
   return (
+
+    
     <div className='About'>
+      
             <div className='cursor' 
       style={{left:cursorX + 'px',
               top: cursorY + 'px'}}
