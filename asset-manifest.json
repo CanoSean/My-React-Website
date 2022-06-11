@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-React-Website/static/css/main.07fa373f.css",
-    "main.js": "/My-React-Website/static/js/main.e926b3e1.js",
+    "main.css": "/My-React-Website/static/css/main.b1084680.css",
+    "main.js": "/My-React-Website/static/js/main.be8e5ca8.js",
     "static/media/deerpointweb.png": "/My-React-Website/static/media/deerpointweb.e62d7e7c96f1420c29e0.png",
     "static/media/animazon.png": "/My-React-Website/static/media/animazon.765ef6b284c5cc933c48.png",
     "static/media/potatoweb.png": "/My-React-Website/static/media/potatoweb.409ef94aced9a92509d1.png",
@@ -15,11 +15,11 @@
     "static/media/slick.ttf": "/My-React-Website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/My-React-Website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/My-React-Website/index.html",
-    "main.07fa373f.css.map": "/My-React-Website/static/css/main.07fa373f.css.map",
-    "main.e926b3e1.js.map": "/My-React-Website/static/js/main.e926b3e1.js.map"
+    "main.b1084680.css.map": "/My-React-Website/static/css/main.b1084680.css.map",
+    "main.be8e5ca8.js.map": "/My-React-Website/static/js/main.be8e5ca8.js.map"
   },
   "entrypoints": [
-    "static/css/main.07fa373f.css",
-    "static/js/main.e926b3e1.js"
+    "static/css/main.b1084680.css",
+    "static/js/main.be8e5ca8.js"
   ]
 }
