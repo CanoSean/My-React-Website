@@ -59,7 +59,7 @@ const About = () => {
               <span className='tagabout'>&lt; p &gt;</span>
                 <h2>
                   <small>
-                      I began my career in web development, working on projects for small businesses and emerging sectors like crypto and NFTs, before moving into the FinTech space where I developed compliance systems, automation tools, and data solutions. With experience spanning front-end and back-end development, I bring strong problem-solving skills, attention to detail, and a passion for creating efficient, user-focused systems. Outside of software, I’m a tech enthusiast who enjoys tinkering with hardware and building computers from scratch.
+                      I hold a background in Computer Engineering and Software Development, which laid the foundation for my career in technology. I began in web development, building projects for small businesses and emerging sectors like crypto and NFTs, before moving into the FinTech space where I developed compliance systems, automation tools, and data-driven solutions. With experience across front-end and back-end development, I bring strong problem-solving skills, attention to detail, and a passion for creating efficient, user-focused systems. Outside of software, I’m a tech enthusiast who enjoys tinkering with hardware and building computers from scratch.
                   </small>
                   <p>&nbsp;</p>
                   <small>If you're interested to know more about me, <Link to="/Contact" className='hesitate'>please don't hesitate to contact me!</Link></small>
