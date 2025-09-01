@@ -58,13 +58,13 @@ const About = () => {
             <div className='content'>
               <span className='tagabout'>&lt; p &gt;</span>
                 <h2>
-                  <small>I graduated as a Computer Engineer back in the Philippines and 
-                    started my venture as Software Developer when I came here to Canada. 
-                    My favorite quote that summarises me pretty well is, 
-                    <i>"A jack of all trades is a master of none, but oftentimes better than a master of one." </i> .
-                    Currently, I have been working on honing my skills in coding and gaining more experience to carry on my career. 
-                    I am a passionate person with an attention to detail and problem-solving skills in hand. 
-                    I am also a computer nerd who loves to tinker/repair and build a system from scratch.</small>
+                  <small>
+                      I began my journey as a Software Developer with hands-on experience in both web development and FinTech. Over the years, I’ve worked on projects ranging from regulatory compliance systems for financial institutions to websites for startups and emerging industries like crypto and NFTs.<br>
+
+                      I’m a versatile developer who enjoys learning new technologies and applying them to solve real-world problems. My work has included building automation tools, optimizing data processes, and designing user-focused digital experiences.<br>
+
+                      I’m passionate about problem-solving, detail-oriented, and always eager to grow my skills. Outside of development, I’m a computer enthusiast who loves tinkering with hardware, repairing systems, and building computers from scratch.<br>
+                  </small>
                   <p>&nbsp;</p>
                   <small>If you're interested to know more about me, <Link to="/Contact" className='hesitate'>please don't hesitate to contact me!</Link></small>
                 </h2>
